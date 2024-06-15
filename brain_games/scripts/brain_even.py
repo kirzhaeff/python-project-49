@@ -1,8 +1,9 @@
-from brain_games.logic import brain_even
+from brain_games.engine import engine
+from brain_games.games import even
 
 
 def main():
-    brain_even()
+    engine(even)
 
 
 if __name__ == '__main__':

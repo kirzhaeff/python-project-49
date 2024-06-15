@@ -4,7 +4,7 @@ import random
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def brain_calc():
+def brain():
     operator = random.choice(['+', '-', '*'])
     num_1 = random.randint(1, 30)
     num_2 = random.randint(1, 30)
