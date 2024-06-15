@@ -1,7 +1,7 @@
 import random
 
 
-DESCRIPTION = 'What is the result of the expression?'
+EXPLAIN = 'What is the result of the expression?'
 
 
 def brain():

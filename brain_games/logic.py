@@ -5,7 +5,7 @@ def logic(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.DESCRIPTION)
+    print(game.EXPLAIN)
     index = 0
     while index < 3:
         question, correct_answer = game.brain()
