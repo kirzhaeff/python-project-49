@@ -1,5 +1,7 @@
+#!/usr/bin/env python3
 from brain_games.logic import logic
 from brain_games.games import prime
+
 
 def main():
     logic(prime)
