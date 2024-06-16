@@ -11,4 +11,4 @@ def brain():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return question, str(correct_answer)
+    return question, correct_answer

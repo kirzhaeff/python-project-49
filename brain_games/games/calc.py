@@ -15,4 +15,4 @@ def brain():
         correct_answer = num_1 - num_2
     elif operator == '*':
         correct_answer = num_1 * num_2
-    return question, str(correct_answer)
+    return question, correct_answer
