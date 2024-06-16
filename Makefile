@@ -11,4 +11,4 @@ package-install: #установка пакетов
 package-reinstall:
 		python3 -m pip install dist/*.whl --force-reinstall
 lint:
-		poetry run flake8 brain_games
+		poetry run flake8

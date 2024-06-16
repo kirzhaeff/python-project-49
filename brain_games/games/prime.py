@@ -3,6 +3,7 @@ from random import randint
 
 EXPLAIN = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def is_prime(a):
     if a < 2:
         return False
