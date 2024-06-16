@@ -13,5 +13,6 @@ def brain():
     random_number = randint(0, length_progression - 1)
     correct_answer = str(progression[random_number])
     progression[random_number] = '..'
+    progression = ' '.join(map(str, progression))
     question = f'Question: {progression}'
     return question, correct_answer
