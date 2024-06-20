@@ -31,6 +31,9 @@ Installation game
 ```commandline
 make install
 ```
+
+<a href="https://asciinema.org/a/kdU9RRGvNSWPks2InZNnmv8qW" target="_blank"><img src="https://asciinema.org/a/kdU9RRGvNSWPks2InZNnmv8qW.svg" /></a>
+
 ---
 Now you can start playing using the commands below:
 
