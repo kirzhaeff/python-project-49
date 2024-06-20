@@ -2,19 +2,20 @@ from random import randint
 
 
 EXPLAIN = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+START_NUM = 1
+END_NUM = 100
 
-
-def is_prime(a):
-    if a < 2:
+def is_prime(num):
+    if num < 2:
         return False
-    for i in range(2, a // 2 + 1):
-        if a % i == 0:
+    for i in range(2, num // 2 + 1):
+        if num % i == 0:
             return False
     return True
 
 
-def brain():
-    number = randint(1, 100)
+def generate_round():
+    number = randint(START_NUM, END_NUM)
     question = f'Question: {number}'
     if is_prime(number):
         correct_answer = 'yes'

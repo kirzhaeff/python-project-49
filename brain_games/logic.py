@@ -1,14 +1,17 @@
 import prompt
 
 
-def logic(game):
+MAX_ROUND = 3
+
+
+def play(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.EXPLAIN)
     index = 0
-    while index < 3:
-        question, correct_answer = game.brain()
+    while index < MAX_ROUND:
+        question, correct_answer = game.generate_round()
         print(question)
         answer = prompt.string('Your answer: ')
 
