@@ -5,6 +5,7 @@ EXPLAIN = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 START_NUM = 1
 END_NUM = 100
 
+
 def is_prime(num):
     if num < 2:
         return False
