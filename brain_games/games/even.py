@@ -6,10 +6,14 @@ START_NUM = 1
 END_NUM = 100
 
 
+def is_even(number):
+    return number % 2 == 0
+
+
 def generate_round():
     number = random.randint(START_NUM, END_NUM)
     question = f'Question: {number}'
-    if number % 2 == 0:
+    if is_even(number):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
