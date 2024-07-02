@@ -12,7 +12,7 @@ def is_even(number):
 
 def generate_round():
     number = random.randint(START_NUM, END_NUM)
-    question = f'Question: {number}'
+    question = number
     if is_even(number):
         correct_answer = 'yes'
     else:

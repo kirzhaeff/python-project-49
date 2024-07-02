@@ -17,7 +17,7 @@ def is_prime(num):
 
 def generate_round():
     number = randint(START_NUM, END_NUM)
-    question = f'Question: {number}'
+    question = number
     if is_prime(number):
         correct_answer = 'yes'
     else:

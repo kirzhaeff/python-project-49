@@ -21,6 +21,6 @@ def generate_round():
     operator = random.choice(['+', '-', '*'])
     num_1 = random.randint(START_NUM, END_NUM)
     num_2 = random.randint(START_NUM, END_NUM)
-    question = f'Question: {num_1} {operator} {num_2}'
+    question = f'{num_1} {operator} {num_2}'
     correct_answer = str(calculate(num_1, num_2, operator))
     return question, correct_answer

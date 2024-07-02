@@ -12,7 +12,7 @@ def play(game):
     index = 0
     while index < MAX_ROUND:
         question, correct_answer = game.generate_round()
-        print(question)
+        print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
 
         if answer == correct_answer:

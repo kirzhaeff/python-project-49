@@ -27,5 +27,5 @@ def generate_round():
     correct_answer = str(progression[random_number])
     progression[random_number] = '..'
     progression = ' '.join(map(str, progression))
-    question = f'Question: {progression}'
+    question = f'{progression}'
     return question, correct_answer
