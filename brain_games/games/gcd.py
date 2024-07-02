@@ -1,9 +1,14 @@
-from math import gcd
 import random
 
 EXPLAIN = 'Find the greatest common divisor of given numbers.'
 START_NUM = 1
 END_NUM = 100
+
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
 
 
 def generate_round():
