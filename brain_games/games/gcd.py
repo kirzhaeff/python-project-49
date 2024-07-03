@@ -5,10 +5,10 @@ START_NUM = 1
 END_NUM = 100
 
 
-def gcd(a, b):
-    while b:
-        a, b = b, a % b
-    return a
+def gcd(num_1, num_2):
+    while num_2:
+        num_1, num_2 = num_2, num_1 % num_2
+    return num_1
 
 
 def generate_round():
